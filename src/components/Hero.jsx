@@ -1,11 +1,11 @@
-import heroImage from './assets/IMG_5893.webp';
-import htmlLogo from './assets/html-5-svgrepo-com.svg';
-import cssLogo from './assets/css-3-svgrepo-com.svg';
-import jsLogo from './assets/javascript-logo-svgrepo-com.svg';
-import reactLogo from './assets/react-svgrepo-com.svg';
-import bootstrapLogo from './assets/bootstrap-svgrepo-com.svg';
-import tailwindLogo from './assets/tailwind-svgrepo-com.svg';
-import materialUiLogo from './assets/material-ui-svgrepo-com.svg';
+import heroImage from '../assets/IMG_5893.webp';
+import htmlLogo from '../assets/html-5-svgrepo-com.svg';
+import cssLogo from '../assets/css-3-svgrepo-com.svg';
+import jsLogo from '../assets/javascript-logo-svgrepo-com.svg';
+import reactLogo from '../assets/react-svgrepo-com.svg';
+import bootstrapLogo from '../assets/bootstrap-svgrepo-com.svg';
+import tailwindLogo from '../assets/tailwind-svgrepo-com.svg';
+import materialUiLogo from '../assets/material-ui-svgrepo-com.svg';
 
 export default function Hero() {
     return (
