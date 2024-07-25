@@ -13,10 +13,10 @@ export default function Hero() {
             <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2">
                 <div className="flex flex-col items-center justify-center m-4">
                     <h1 className="flex items-center justify-center m-4 text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 sm:text-6xl">Hola! Soy Rodrigo Lajas</h1>
-                    <p className="flex items-center justify-center m-4 bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 text-2xl font-bold">Soy un desarrollador front-end en formación con pasión por crear aplicaciones web.</p>
+                    <p className="flex items-center justify-center m-4 bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 text-2xl font-bold leading-normal">Soy un desarrollador front-end en formación con pasión por crear aplicaciones web.</p>
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                    <img src={heroImage} alt="Hero Image" className="w-full h-full object-cover my-8 border-l-lime-400" />
+                    <img src={heroImage} alt="Hero Image" className="w-full h-full object-contain my-8 border-4 border-l-lime-400 border-t-lime-200 border-r-lime-200 border-b-lime-400" />
                 </div>
             </div>
             <div className="flex mx-auto items-center justify-center">
