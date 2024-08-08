@@ -24,25 +24,37 @@ export default function Hero() {
             </div>
             <div className="flex flex-wrap items-center justify-center">
                 <div className="flex flex-col items-center justify-center">
-                    <img src={htmlLogo} alt="HTML" className="w-24 h-24 p-2 m-2" />
+                    <a href="https://www.html.com/" target="_blank" rel="noopener noreferrer">
+                        <img src={htmlLogo} alt="HTML" className="w-24 h-24 p-2 m-2" />
+                    </a>
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                    <img src={cssLogo} alt="CSS" className="w-24 h-24 p-2 m-2"/>
+                    <img src={cssLogo} alt="CSS" className="w-24 h-24 p-2 m-2" />
                 </div>
                 <div>
-                <img src={jsLogo} alt="JavaScript" className="w-24 h-24 p-2 m-2" />
+                    <a href="https://www.javascript.com/" target="_blank" rel="noopener noreferrer">
+                        <img src={jsLogo} alt="JavaScript" className="w-24 h-24 p-2 m-2" />
+                    </a>
                 </div>
                 <div>
-                <img src={reactLogo} alt="React" className="w-24 h-24 p-2 m-2" />
+                    <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
+                        <img src={reactLogo} alt="React" className="w-24 h-24 p-2 m-2" />
+                    </a>
                 </div>
                 <div>
-                <img src={bootstrapLogo} alt="Bootstrap" className="w-24 h-24 p-2 m-2" />
+                    <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
+                        <img src={bootstrapLogo} alt="Bootstrap" className="w-24 h-24 p-2 m-2" />
+                    </a>
                 </div>
                 <div>
-                <img src={tailwindLogo} alt="Tailwind" className="w-24 h-24 p-2 m-2" />
+                    <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">
+                        <img src={tailwindLogo} alt="Tailwind" className="w-24 h-24 p-2 m-2" />
+                    </a>
                 </div>
                 <div>
-                <img src={materialUiLogo} alt="Material UI" className="w-24 h-24 p-2 m-2" />
+                    <a href="https://mui.com/" target="_blank" rel="noopener noreferrer">
+                        <img src={materialUiLogo} alt="Material UI" className="w-24 h-24 p-2 m-2" />
+                    </a>
                 </div>
             </div>
         </section>
