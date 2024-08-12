@@ -30,10 +30,10 @@ export default function Navbar() {
                 </button>
             </div>
             <ul className="hidden md:flex items-center justify-center space-x-4">
-                <li className="font-bold mx-4"><a href="#" className='hover:text-lime-400 active:text-lime-600 transition duration-300 ease-in-out'>Inicio</a></li>
-                <li className="font-bold mx-4"><a href="#about">Acerca de mi</a></li>
-                <li className="font-bold mx-4"><a href="#projects">Proyectos</a></li>
-                <li className="font-bold mx-4"><a href="#contact">Contacto</a></li>
+                <li className="font-bold mx-4 text-2xl"><a href="#" className='hover:text-lime-400 active:text-lime-600 transition duration-300 ease-in-out'>Inicio</a></li>
+                <li className="font-bold mx-4 text-2xl"><a href="#about" className='hover:text-lime-400 active:text-lime-600 transition duration-300 ease-in-out'>Acerca de mi</a></li>
+                <li className="font-bold mx-4 text-2xl"><a href="#projects" className='hover:text-lime-400 active:text-lime-600 transition duration-300 ease-in-out'>Proyectos</a></li>
+                <li className="font-bold mx-4 text-2xl"><a href="#contact" className='hover:text-lime-400 active:text-lime-600 transition duration-300 ease-in-out'>Contacto</a></li>
             </ul>
 
             {isMenuOpen ? (
