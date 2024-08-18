@@ -9,18 +9,18 @@ import materialUiLogo from '../assets/material-ui-svgrepo-com.svg';
 
 export default function Hero() {
     return (
-        <section id="hero" className="bg-gray-800 text-white p-4 mt-4">
+        <section id="hero" className="bg-gray-800 text-white p-4 mt-10">
             <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2">
                 <div className="flex flex-col items-center justify-center m-4">
-                    <h1 className="flex items-center justify-center m-4 text-4xl leading-normal font-bold bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 sm:text-6xl sm:leading-normal">Hola! Soy Rodrigo Lajas</h1>
-                    <p className="flex items-center justify-center m-4 bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 text-2xl font-bold leading-normal">Soy un desarrollador front-end en formación con pasión por crear aplicaciones web.</p>
+                    <h1 className="flex items-center justify-center m-4 text-4xl leading-normal font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 font-noto-sans sm:text-6xl sm:leading-normal">Hola! Soy Rodrigo Lajas</h1>
+                    <p className="flex items-center justify-center m-4 bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 text-2xl font-bold leading-normal font-noto-sans">Soy un desarrollador front-end en formación con pasión por crear aplicaciones web.</p>
                 </div>
-                <div className="flex flex-col items-center justify-center">
-                    <img src={heroImage} alt="Hero Image" className="w-full h-full object-contain my-8 border-4 border-l-lime-400 border-t-lime-200 border-r-lime-200 border-b-lime-400" />
+                <div className="flex flex-col items-center justify-center m-4">
+                    <img src={heroImage} alt="Hero Image" className="w-4/5 h-auto object-contain my-8 border-4 border-l-lime-400 border-t-lime-200 border-r-lime-200 border-b-lime-400" />
                 </div>
             </div>
             <div className="flex mx-auto items-center justify-center">
-                <h3 className="flex items-center justify-center text-2xl font-bold w-auto m-8 bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 text-2xl sm:text-4xl sm:leading-normal">Principales tecnologias que manejo</h3>
+                <h3 className="flex items-center justify-center text-xl font-bold w-auto m-8 bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 text-2xl sm:text-2xl sm:leading-normal">Principales tecnologias que manejo</h3>
             </div>
             <div className="flex flex-wrap items-center justify-center">
                 <div className="flex flex-col items-center justify-center">

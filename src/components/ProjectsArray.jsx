@@ -1,31 +1,21 @@
 const Proyects = [
     {
         id: 1,
-        title: "Proyecto 1",
-        description: "Descripción del proyecto 1",
-        imageUrl: "https://via.placeholder.com/150",
-        link: "https://www.google.com/",
+        title: "Houston guitar shop",
+        description: "Proyecto basado en una tienda ficticia que ofrece instrumentos musicales, accesorios, y cursos de guitarra de distintos niveles de dificultad.",
+        imageUrl: "src/assets/Captura de pantalla 2024-08-17 210546.png",
+        link: "https://houstonguitarshop.vercel.app/",
+        repositorio: "https://github.com/Rodrigo-Lajas/PF-Lajas",
+        tags: ["HTML", "CSS", "SASS", "Bootstrap"],
     },
     {
         id: 2,
-        title: "Proyecto 2",
-        description: "Descripción del proyecto 2",
-        imageUrl: "https://via.placeholder.com/150",
-        link: "https://www.google.com/",
-    },
-    {
-        id: 3,
-        title: "Proyecto 3",
-        description: "Descripción del proyecto 3",
-        imageUrl: "https://via.placeholder.com/150",
-        link: "https://www.google.com/",
-    },
-    {
-        id: 4,
-        title: "Proyecto 4",
-        description: "Descripción del proyecto 4",
-        imageUrl: "https://via.placeholder.com/150",
-        link: "https://www.google.com/",
+        title: "Tienda de guitarras",
+        description: "Proyecto creado a partir de una tienda ficticia de guitarras y accesorios. Se hace uso de carrito, sus funciones, y de filtro según productos o categorías.",
+        imageUrl: "src/assets/Captura de pantalla 2024-08-18 141704.png",
+        link: "https://rodrigo-lajas.github.io/ProyectoFinal-Lajas/",
+        repositorio: "https://github.com/Rodrigo-Lajas/ProyectoFinal-Lajas",
+        tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     },
 ]
 
