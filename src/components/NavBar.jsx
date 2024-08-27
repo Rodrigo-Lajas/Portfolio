@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 export default function Navbar() {
 
@@ -16,17 +17,7 @@ export default function Navbar() {
         <nav className="bg-gray-800 text-white p-4 fixed top-0 w-full shadow-2xl">
             <div className="md:hidden">
                 <button className="text-white bg-gray-700 hover:bg-gray-600 focus:outline-none rounded p-2 transition duration-300 ease-in-out" onClick={toggleMenu}>
-                    <svg
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        viewBox="0 0 24 24"
-                        className="w-6 h-6"
-                    >
-                        <path d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
+                    {isMenuOpen ? <FaTimes className= "w-6 h-6"/> : <FaBars className= "w-6 h-6" />}
                 </button>
             </div>
             <ul className="hidden md:flex items-center justify-evenly space-x-4 my-2">
