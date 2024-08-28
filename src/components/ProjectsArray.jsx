@@ -23,7 +23,7 @@ const Proyects = [
         title: "Tienda de telefonos celulares",
         description: "Proyecto creado a partir de una tienda ficticia de celulares. Se hace uso de carrito, sus funciones, y de filtro por categorías.",
         imageUrl: tiendaDeCelulares,
-        link: "https://tiendadecelulares-rodrigolajas-projects.vercel.app/",
+        link: "https://tienda-de-telefonos-celulares.vercel.app/",
         tags: ["HTML", "CSS", "JavaScript", "React", "React Bootstrap", "Firebase", ],
     },
 ]
