@@ -12,7 +12,7 @@ export default function Navbar() {
     const closeMenu = () => {
         setIsMenuOpen(false);
     }
-
+    
     return (
         <nav className="bg-gray-800 text-white p-4 fixed top-0 w-full shadow-2xl">
             <div className="md:hidden">
