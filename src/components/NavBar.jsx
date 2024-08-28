@@ -20,7 +20,7 @@ export default function Navbar() {
                     {isMenuOpen ? <FaTimes className= "w-6 h-6"/> : <FaBars className= "w-6 h-6" />}
                 </button>
             </div>
-            <ul className="hidden md:flex items-center justify-evenly space-x-4 my-2">
+            <ul className="hidden md:flex items-center justify-evenly space-x-4 my-2 p-4">
                 <li className=" mx-4 font-noto-sans text-lg font-bold"><a href="#" className='hover:text-lime-400 active:text-lime-600 transition duration-300 ease-in-out'>Inicio</a></li>
                 <li className="mx-4 font-noto-sans text-lg font-bold"><a href="#about" className='hover:text-lime-400 active:text-lime-600 transition duration-300 ease-in-out'>Acerca de mi</a></li>
                 <li className="mx-4 font-noto-sans text-lg font-bold"><a href="#projects" className='hover:text-lime-400 active:text-lime-600 transition duration-300 ease-in-out'>Proyectos</a></li>
