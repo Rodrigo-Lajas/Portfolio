@@ -12,10 +12,10 @@ export default function Navbar() {
     const closeMenu = () => {
         setIsMenuOpen(false);
     }
-    
+
     return (
-        <nav className="bg-gray-800 text-white p-4 fixed top-0 w-full shadow-2xl">
-            <div className="md:hidden">
+        <nav className="bg-gray-800 text-white fixed top-0 w-full shadow-2xl">
+            <div className="p-4 md:hidden">
                 <button className="text-white bg-gray-700 hover:bg-gray-600 focus:outline-none rounded p-2 transition duration-300 ease-in-out" onClick={toggleMenu}>
                     {isMenuOpen ? <FaTimes className= "w-6 h-6"/> : <FaBars className= "w-6 h-6" />}
                 </button>
