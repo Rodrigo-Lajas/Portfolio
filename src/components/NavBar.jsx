@@ -17,7 +17,7 @@ export default function Navbar() {
         <nav className="bg-gray-800 text-white fixed top-0 w-full shadow-2xl">
             <div className="p-4 md:hidden">
                 <button className="text-white bg-gray-700 hover:bg-gray-600 focus:outline-none rounded p-2 transition duration-300 ease-in-out" onClick={toggleMenu}>
-                    {isMenuOpen ? <FaTimes className= "w-6 h-6"/> : <FaBars className= "w-6 h-6" />}
+                    {isMenuOpen ? <FaTimes className="w-6 h-6" /> : <FaBars className="w-6 h-6" />}
                 </button>
             </div>
             <ul className="hidden md:flex items-center justify-evenly space-x-4 my-2 p-4">
