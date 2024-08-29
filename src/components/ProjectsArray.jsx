@@ -1,6 +1,6 @@
-import houstonguitarshop from "../assets/houstonguitarshop.png";
-import tiendaDeGuitarras from "../assets/tiendaDeGuitarras.png";
-import tiendaDeCelulares from "../assets/tiendaDeCelulares.png";
+import houstonguitarshop from 'src/assets/houstonguitarshop.png';
+import tiendaDeGuitarras from 'src/assets/tiendaDeGuitarras.png';
+import tiendaDeCelulares from 'src/assets/tiendaDeCelulares.png';
 const Proyects = [
     {
         id: 1,
