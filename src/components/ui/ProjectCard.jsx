@@ -10,7 +10,7 @@ const ProjectCard = ({ title, description, imageUrl, link, tags = [] }) => {
             <div className="p-4">
                 {tags.map((tag) => (
                     <span
-                        key={tag}  className="inline-block bg-gradient-to-r from-lime-400 to-lime-100 text-gray-800 rounded-full px-4 py-1 text-xs font-medium font-noto-sans m-1"
+                        key={tag} className="inline-block bg-gradient-to-r from-lime-400 to-lime-100 text-gray-800 rounded-full px-4 py-1 text-xs font-medium font-noto-sans m-1"
                     >
                         {tag}
                     </span>
