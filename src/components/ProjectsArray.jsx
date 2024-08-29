@@ -16,7 +16,7 @@ const Projects = [
         title: "Tienda de guitarras",
         description: "Proyecto creado a partir de una tienda ficticia de guitarras y accesorios. Se hace uso de carrito, sus funciones, y de filtro según productos o categorías.",
         imageUrl: tiendaGuitarras,
-        link: "https://rodrigo-lajas.github.io/ProyectoFinal-Lajas/",
+        link: "https://tienda-de-guitarras-one.vercel.app/",
         tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     },
     {
