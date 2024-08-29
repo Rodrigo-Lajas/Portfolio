@@ -30,7 +30,7 @@ export default function Hero() {
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
-                    <img src={cssLogo} alt="CSS" className="w-24 h-24 p-2 m-2" />
+                        <img src={cssLogo} alt="CSS" className="w-24 h-24 p-2 m-2" />
                     </a>
                 </div>
                 <div>
