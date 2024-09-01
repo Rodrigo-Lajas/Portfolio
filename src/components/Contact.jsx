@@ -11,17 +11,17 @@ export default function Contacto() {
             </h3>
             <div className="flex items-center justify-center space-x-6 mt-8">
                 <motion.div {...buttonAnimation}>
-                    <a href="https://github.com/Rodrigo-Lajas" target="_blank" rel="noopener noreferrer" className="text-lime-400 hover:text-lime-300 transition duration-300 ease-in-out text-4xl">
+                    <a href="https://github.com/Rodrigo-Lajas" target="_blank" rel="noopener noreferrer" className="transition duration-300 ease-in-out">
                         <img src={github} alt="GitHub" className="w-24 h-24 p-2 m-2" loading='lazy' />
                     </a>
                 </motion.div>
                 <motion.div {...buttonAnimation}>
-                    <a href="https://www.linkedin.com/in/rodrigolajas/" target="_blank" rel="noopener noreferrer" className="text-lime-400 hover:text-lime-300 transition duration-300 ease-in-out text-4xl">
+                    <a href="https://www.linkedin.com/in/rodrigolajas/" target="_blank" rel="noopener noreferrer" className="transition duration-300 ease-in-out text-4xl">
                         <img src={linkedin} alt="LinkedIn" className="w-24 h-24 p-2 m-2" loading='lazy' />
                     </a>
                 </motion.div>
                 <motion.div {...buttonAnimation}>
-                    <a href="mailto:rodrigolajas18@gmail.com" className="text-lime-400 hover:text-lime-300 transition duration-300 ease-in-out text-4xl">
+                    <a href="mailto:rodrigolajas18@gmail.com" className="transition duration-300 ease-in-out text-4xl">
                         <img src={mail} alt="Email" className="w-24 h-24 p-2 m-2" loading='lazy' />
                     </a>
                 </motion.div>
