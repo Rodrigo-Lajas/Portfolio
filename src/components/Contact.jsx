@@ -1,6 +1,8 @@
 import github from '../assets/github-svgrepo-com.svg';
 import linkedin from '../assets/linkedin-svgrepo-com.svg';
 import mail from '../assets/mail-svgrepo-com.svg';
+import { motion } from "framer-motion"
+import { buttonAnimation } from "./ui/buttonAnimation";
 export default function Contacto() {
     return (
         <section id="contact" className="bg-gray-800 text-white p-4 scroll-mt-16">
@@ -8,16 +10,22 @@ export default function Contacto() {
                 Contacto
             </h3>
             <div className="flex items-center justify-center space-x-6 mt-8">
-                <a href="https://github.com/Rodrigo-Lajas" target="_blank" rel="noopener noreferrer" className="text-lime-400 hover:text-lime-300 transition duration-300 ease-in-out text-4xl">
-                    <img src={github} alt="GitHub" className="w-24 h-24 p-2 m-2" loading='lazy'/>
-                </a>
-                <a href="https://www.linkedin.com/in/rodrigolajas/" target="_blank" rel="noopener noreferrer" className="text-lime-400 hover:text-lime-300 transition duration-300 ease-in-out text-4xl">
-                    <img src={linkedin} alt="LinkedIn" className="w-24 h-24 p-2 m-2" loading='lazy'/>
-                </a>
-                <a href="mailto:rodrigolajas18@gmail.com" className="text-lime-400 hover:text-lime-300 transition duration-300 ease-in-out text-4xl">
-                    <img src={mail} alt="Email" className="w-24 h-24 p-2 m-2" loading='lazy'/>
-                </a>
+                <motion.div {...buttonAnimation}>
+                    <a href="https://github.com/Rodrigo-Lajas" target="_blank" rel="noopener noreferrer" className="text-lime-400 hover:text-lime-300 transition duration-300 ease-in-out text-4xl">
+                        <img src={github} alt="GitHub" className="w-24 h-24 p-2 m-2" loading='lazy' />
+                    </a>
+                </motion.div>
+                <motion.div {...buttonAnimation}>
+                    <a href="https://www.linkedin.com/in/rodrigolajas/" target="_blank" rel="noopener noreferrer" className="text-lime-400 hover:text-lime-300 transition duration-300 ease-in-out text-4xl">
+                        <img src={linkedin} alt="LinkedIn" className="w-24 h-24 p-2 m-2" loading='lazy' />
+                    </a>
+                </motion.div>
+                <motion.div {...buttonAnimation}>
+                    <a href="mailto:rodrigolajas18@gmail.com" className="text-lime-400 hover:text-lime-300 transition duration-300 ease-in-out text-4xl">
+                        <img src={mail} alt="Email" className="w-24 h-24 p-2 m-2" loading='lazy' />
+                    </a>
+                </motion.div>
             </div>
-        </section>
+        </section >
     );
 }

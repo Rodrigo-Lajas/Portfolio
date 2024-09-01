@@ -1,10 +1,15 @@
 /* eslint-disable react/prop-types */
+import { motion } from "framer-motion"
+import { buttonAnimation } from "./buttonAnimation";
 const ProjectCard = ({ title, description, imageUrl, link, tags = [] }) => {
     return (
-        <div className="max-w-sm h-full rounded overflow-hidden shadow-lg bg-gray-600">
-            <img className="w-96" src={imageUrl} alt={title}/>
+        <div className="max-w-sm h-full rounded-lg overflow-hidden shadow-lg bg-gray-600">
+            <img className="w-96" src={imageUrl} alt={title} />
             <div className="px-6 py-4">
-                <div className="font-bold text-xl font-noto-sans mb-2 text-white"><a href={link} target="_blank" className='hover:text-lime-400 active:text-lime-600 transition duration-300 ease-in-out'>{title}</a></div>
+                <motion.div {...buttonAnimation}
+                    className="font-bold text-xl font-noto-sans my-4 text-white text-center">
+                    <a href={link} target="_blank" className='hover:text-lime-400 active:text-lime-600 transition duration-300 ease-in-out'>{title}</a>
+                </motion.div>
                 <p className="text-slate-300 text-base font-noto-sans">{description}</p>
             </div>
             <div className="p-4">
