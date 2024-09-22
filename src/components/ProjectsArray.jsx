@@ -9,7 +9,7 @@ const Projects = [
         description: "Proyecto basado en una tienda ficticia que ofrece instrumentos musicales, accesorios, y cursos de guitarra de distintos niveles de dificultad.",
         imageUrl: houstonGuitarShop,
         link: "https://houstonguitarshop.vercel.app/",
-        tags: ["HTML", "CSS", "SASS", "Bootstrap"],
+        tags: ["HTML", "CSS", "SASS", "Bootstrap", "Responsive"],
     },
     {
         id: 2,
