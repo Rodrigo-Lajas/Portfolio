@@ -25,7 +25,7 @@ const Projects = [
         description: "Proyecto creado a partir de una tienda ficticia de celulares. Se hace uso de carrito, sus funciones, y de filtro por categorías.",
         imageUrl: tiendaCelulares,  
         link: "https://tienda-de-telefonos-celulares.vercel.app/",
-        tags: ["HTML", "CSS", "JavaScript", "React", "React Bootstrap", "Firebase",],
+        tags: ["HTML", "JavaScript", "React", "Bootstrap", "React Bootstrap", "Firebase"],
     },
 ]
 
