@@ -9,7 +9,7 @@ const Projects = [
         description: "Proyecto basado en una tienda ficticia que ofrece instrumentos musicales, accesorios, y cursos de guitarra de distintos niveles de dificultad.",
         imageUrl: houstonGuitarShop,
         link: "https://houstonguitarshop.vercel.app/",
-        tags: ["HTML", "CSS", "SASS", "Bootstrap", "Responsive"],
+        tags: ["HTML", "CSS", "SASS", "Bootstrap"],
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ const Projects = [
         description: "Proyecto creado a partir de una tienda ficticia de guitarras y accesorios. Se hace uso de carrito, sus funciones, y de filtro según productos o categorías.",
         imageUrl: tiendaGuitarras,
         link: "https://tienda-de-guitarras-one.vercel.app/",
-        tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+        tags: ["HTML", "CSS", "JavaScript"],
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ const Projects = [
         description: "Proyecto creado a partir de una tienda ficticia de celulares. Se hace uso de carrito, sus funciones, y de filtro por categorías.",
         imageUrl: tiendaCelulares,  
         link: "https://tienda-de-telefonos-celulares.vercel.app/",
-        tags: ["HTML", "JavaScript", "React", "Bootstrap", "React Bootstrap", "Firebase"],
+        tags: ["React", "Bootstrap", "Firebase"],
     },
 ]
 

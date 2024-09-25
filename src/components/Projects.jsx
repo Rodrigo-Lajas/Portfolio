@@ -4,7 +4,7 @@ import ProjectCard from "./ui/ProjectCard";
 import { motion } from "framer-motion";
 import { buttonAnimation } from "../components/ui/buttonAnimation";
 
-const customButton = "inline-block bg-gradient-to-r from-lime-400 to-lime-100 text-gray-800 rounded-full px-4 py-1 text-xs font-medium font-noto-sans m-1"
+const customButton = "inline-block bg-gradient-to-r from-lime-400 to-lime-100 text-gray-800 rounded-full px-4 py-1 text-xs font-medium font-noto-sans m-1 shadow-lg"
 
 export default function Proyectos() {
 
