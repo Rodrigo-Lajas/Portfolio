@@ -1,6 +1,7 @@
 import houstonGuitarShop from '../assets/houstonGuitarShop.webp';
 import tiendaGuitarras from '../assets/tiendaDeGuitarras.webp';
 import tiendaCelulares from '../assets/tiendaDeTelefonosCelulares.webp';
+import automation from '../assets/automationJava.webp';
 
 const Projects = [
     {
@@ -27,6 +28,14 @@ const Projects = [
         link: "https://tienda-de-telefonos-celulares.vercel.app/",
         tags: ["React", "Bootstrap", "Firebase"],
     },
+    {
+        id: 4,
+        title: "AUTOMATION",
+        description: "Pequeñas actividades realizadas para ejecutar automatizaciones. Se hizo uso de Selenium, Chrome Driver y Java.",
+        imageUrl: automation,
+        link: "https://github.com/Rodrigo-Lajas/Automation",
+        tags: ["Selenium", "Chrome Driver", "Java"],
+    }
 ]
 
 export default Projects;
