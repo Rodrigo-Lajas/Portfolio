@@ -33,6 +33,7 @@ export default function Navbar() {
             <ul className="hidden md:flex items-center justify-evenly space-x-4 my-2 p-4">
                 <motion.li {...buttonAnimation} className={navBarLi}><a href="#" className={navBarLiHover}>Inicio</a></motion.li>
                 <motion.li {...buttonAnimation} className={navBarLi}><a href="#about" className={navBarLiHover}>Acerca de mi</a></motion.li>
+                <motion.li {...buttonAnimation} className={navBarLi}><a href="#education" className={navBarLiHover}>Educación</a></motion.li>
                 <motion.li {...buttonAnimation} className={navBarLi}><a href="#projects" className={navBarLiHover}>Proyectos</a></motion.li>
                 <motion.li {...buttonAnimation} className={navBarLi}><a href="#contact" className={navBarLiHover}>Contacto</a></motion.li>
             </ul>
