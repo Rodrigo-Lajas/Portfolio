@@ -12,13 +12,13 @@ import { buttonAnimation } from './ui/buttonAnimation';
 
 export default function Hero() {
     return (
-        <section id="hero" className="bg-gray-800 text-white p-4 pt-10">
+        <section id="hero" className="bg-gray-800 text-white p-4 pt-12">
             <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2">
                 <div className="flex flex-col items-center justify-center m-4">
                     <h1 className="flex items-center justify-center m-4 text-4xl leading-normal font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 font-noto-sans sm:text-6xl sm:leading-normal">Hola! Soy Rodrigo Lajas</h1>
                     <p className="flex items-center justify-center m-4 bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 text-2xl font-bold leading-normal font-noto-sans">Soy un desarrollador front-end en formación con pasión por crear aplicaciones web.</p>
                 </div>
-                <div className="flex flex-col items-center justify-center m-4">
+                <div className="flex flex-col items-center justify-center">
                     <img src={heroImage} alt="Hero Image" className="w-4/5 h-auto object-contain my-8 border-4 border-l-lime-400 border-t-lime-200 border-r-lime-200 border-b-lime-400 shadow-lg" loading='lazy'/>
                 </div>
             </div>
@@ -31,7 +31,7 @@ export default function Hero() {
                         <img src={htmlLogo} alt="HTML" className="w-24 h-24 p-2 m-2" loading='lazy'/>
                     </a>
                 </motion.div>
-                <motion.div {...buttonAnimation} className="flex flex-col items-center justify-center">
+                <motion.div {...buttonAnimation}>
                     <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
                         <img src={cssLogo} alt="CSS" className="w-24 h-24 p-2 m-2" loading='lazy'/>
                     </a>
