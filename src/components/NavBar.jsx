@@ -40,7 +40,8 @@ export default function Navbar() {
             {isMenuOpen ? (
                 <ul className='flex-col h-screen w-full fixed bg-gray-800 md:hidden'>
                     <li className={mobileNavLi}><a href="#" onClick={closeMenu}>Inicio</a></li>
-                    <li className={mobileNavLi}><a href="#about" onClick={closeMenu}>Acerca de mi</a></li>
+                    <li className={mobileNavLi}><a href="#about" onClick={closeMenu}>Acerca de mí</a></li>
+                    <li className={mobileNavLi}><a href="#education" onClick={closeMenu}>Educación</a></li>
                     <li className={mobileNavLi}><a href="#projects" onClick={closeMenu}>Proyectos</a></li>
                     <li className={mobileNavLi}><a href="#contact" onClick={closeMenu}>Contacto</a></li>
                 </ul>

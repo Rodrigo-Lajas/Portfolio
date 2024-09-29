@@ -1,8 +1,7 @@
 export default function Education() {
     return (
-        <section id="education" className="bg-gray-800 text-white p-4 scroll-mt-16">
-                        <h3 className="flex items-center justify-center text-4xl font-noto-sans font-bold w-auto m-8 bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 sm:text-6xl sm:leading-normal">Educación</h3>
-
+        <section id="education" className="bg-gray-800  p-4 scroll-mt-16">
+            <h3 className="flex items-center justify-center text-4xl font-noto-sans font-bold w-auto m-8 bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 sm:text-6xl sm:leading-normal">Educación</h3>
             <ul className="timeline timeline-vertical">
                 <li>
                     <div className="timeline-start">Feb 2024 - Abr 2024</div>
