@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { buttonAnimation } from './ui/buttonAnimation';
+import navBarItems from '../components/NavBarArray';
 
 const navBarLi = "mx-4 font-noto-sans text-lg font-bold"
 
@@ -22,8 +23,7 @@ export default function Navbar() {
     }
 
     return (
-
-        <nav className="bg-gray-800 text-white fixed top-0 w-full shadow-2xl md:bg-opacity-50 backdrop-blur z-10">
+        < nav className="bg-gray-800 text-white fixed top-0 w-full shadow-2xl md:bg-opacity-50 backdrop-blur z-10" >
             <div className="p-4 md:hidden">
                 <button className="text-white bg-gray-700 hover:bg-gray-600 focus:outline-none rounded p-2 transition duration-300 ease-in-out" onClick={toggleMenu}>
                     {isMenuOpen ? <FaTimes className="w-6 h-6" /> : <FaBars className="w-6 h-6" />}
@@ -31,22 +31,19 @@ export default function Navbar() {
             </div>
 
             <ul className="hidden md:flex items-center justify-evenly space-x-4 my-2 p-4">
-                <motion.li {...buttonAnimation} className={navBarLi}><a href="#" className={navBarLiHover}>Inicio</a></motion.li>
-                <motion.li {...buttonAnimation} className={navBarLi}><a href="#about" className={navBarLiHover}>Acerca de mi</a></motion.li>
-                <motion.li {...buttonAnimation} className={navBarLi}><a href="#education" className={navBarLiHover}>Estudios</a></motion.li>
-                <motion.li {...buttonAnimation} className={navBarLi}><a href="#projects" className={navBarLiHover}>Proyectos</a></motion.li>
-                <motion.li {...buttonAnimation} className={navBarLi}><a href="#contact" className={navBarLiHover}>Contacto</a></motion.li>
+                {navBarItems.map((item) => (
+                    <motion.li {...buttonAnimation} key={item.id} className={navBarLi}><a href={item.link} className={navBarLiHover}>{item.title}</a></motion.li>
+                ))}
             </ul>
 
             {isMenuOpen ? (
                 <ul className='flex-col h-screen w-full fixed bg-gray-800 md:hidden'>
-                    <li className={mobileNavLi}><a href="#" onClick={closeMenu}>Inicio</a></li>
-                    <li className={mobileNavLi}><a href="#about" onClick={closeMenu}>Acerca de mí</a></li>
-                    <li className={mobileNavLi}><a href="#education" onClick={closeMenu}>Estudios</a></li>
-                    <li className={mobileNavLi}><a href="#projects" onClick={closeMenu}>Proyectos</a></li>
-                    <li className={mobileNavLi}><a href="#contact" onClick={closeMenu}>Contacto</a></li>
+                    {navBarItems.map((item) => (
+                        <li className={mobileNavLi} key={item.id}><a href={item.link} onClick={closeMenu}>{item.title}</a></li>
+                    ))}
                 </ul>
-            ) : null}
-        </nav>
+            ) : null
+            }
+        </nav >
     );
 }      
