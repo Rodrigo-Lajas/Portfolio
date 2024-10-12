@@ -5,7 +5,6 @@ import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import TopButton from "./components/Ui/TopButton";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 export default function App() {
     return (
@@ -17,7 +16,6 @@ export default function App() {
             <Projects />
             <Contact />
             <Footer />
-            <TopButton />
             <SpeedInsights />
         </div>
     );
