@@ -1,8 +1,7 @@
 import github from '../assets/github-svgrepo-com.svg';
 import linkedin from '../assets/linkedin-svgrepo-com.svg';
 import mail from '../assets/mail-svgrepo-com.svg';
-import { motion } from "framer-motion"
-import { buttonAnimation } from "./ui/buttonAnimation";
+
 export default function Contacto() {
 
     const contactArray = [
@@ -18,11 +17,11 @@ export default function Contacto() {
             </h3>
             <div className="flex items-center justify-center mt-8">
                 {contactArray.map((contact) => (                   
-                <motion.div {...buttonAnimation} key={contact.id}>
+                <div key={contact.id}>
                     <a href={contact.link} target="_blank" rel="noopener noreferrer" className="transition duration-300 ease-in-out">
                         <img src={contact.logo} alt={contact.name} className="w-24 h-24 p-2 m-2" loading='lazy' />
                     </a>
-                </motion.div>
+                </div>
                 ))}
             </div>
         </section >

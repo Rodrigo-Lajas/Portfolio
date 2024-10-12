@@ -1,6 +1,4 @@
 /* eslint-disable react/prop-types */
-import { motion } from "framer-motion"
-import { buttonAnimation } from "./buttonAnimation";
 const ProjectCard = ({ title, description, imageUrl, link, tags = [] }) => {
     return (
         <div className="max-w-sm h-full rounded-lg overflow-hidden shadow-lg bg-gray-600 p-6">
@@ -20,9 +18,9 @@ const ProjectCard = ({ title, description, imageUrl, link, tags = [] }) => {
                 ))}
             </div>
             <div className="flex items-center justify-center">
-                <motion.a {...buttonAnimation} href={link} target="_blank" rel="noopener noreferrer" className='underline hover:text-lime-400 active:text-lime-600 transition duration-300 ease-in-out'>
+                <a href={link} target="_blank" rel="noopener noreferrer" className='underline hover:text-lime-400 active:text-lime-600 transition duration-300 ease-in-out'>
                     Ir al sitio
-                </motion.a>
+                </a>
             </div>
         </div>
     )

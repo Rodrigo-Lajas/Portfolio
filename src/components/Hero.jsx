@@ -7,9 +7,6 @@ import bootstrapLogo from '../assets/bootstrap-svgrepo-com.svg';
 import tailwindLogo from '../assets/tailwind-svgrepo-com.svg';
 import materialUiLogo from '../assets/material-ui-svgrepo-com.svg';
 
-import { motion } from "framer-motion"
-import { buttonAnimation } from './ui/buttonAnimation';
-
 const skillsArray = [
     { id: 1, name: "HTML", link: "https://www.html.com/", logo: htmlLogo },
     { id: 2, name: "CSS", link: "https://developer.mozilla.org/en-US/docs/Web/CSS", logo: cssLogo },
@@ -37,11 +34,11 @@ export default function Hero() {
             </div>
             <div className="flex flex-wrap items-center justify-center">
                 {skillsArray.map((skill) => (
-                    <motion.div key={skill.id} {...buttonAnimation}>
+                    <div key={skill.id}>
                         <a href={skill.link} target="_blank" rel="noopener noreferrer">
                             <img src={skill.logo} alt={skill.name} className="w-24 h-24 p-2 m-2" loading='lazy'/>
                         </a>
-                    </motion.div>
+                    </div>
                 ))
                 }
             </div>

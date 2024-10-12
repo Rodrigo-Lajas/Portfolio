@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { motion } from 'framer-motion';
-import { buttonAnimation } from './ui/buttonAnimation';
 import navBarItems from '../components/NavBarArray';
 
 const navBarLi = "mx-4 font-noto-sans text-lg font-bold"
@@ -32,7 +30,7 @@ export default function Navbar() {
 
             <ul className="hidden md:flex items-center justify-evenly space-x-4 my-2 p-4">
                 {navBarItems.map((item) => (
-                    <motion.li {...buttonAnimation} key={item.id} className={navBarLi}><a href={item.link} className={navBarLiHover}>{item.title}</a></motion.li>
+                    <li  key={item.id} className={navBarLi}><a href={item.link} className={navBarLiHover}>{item.title}</a></li>
                 ))}
             </ul>
 
