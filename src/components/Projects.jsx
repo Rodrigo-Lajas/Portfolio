@@ -1,6 +1,6 @@
 import projects from "../components/ProjectsArray";
 import { useState } from "react";
-import ProjectCard from "./Ui/ProjectCard";
+import ProjectCard from "../components/Ui/ProjectCard";
 
 const customButton = "inline-block bg-gradient-to-r from-lime-400 to-lime-100 text-gray-800 rounded-full px-4 py-1 text-xs font-medium font-noto-sans m-1 shadow-lg"
 
