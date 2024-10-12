@@ -1,6 +1,6 @@
 import projects from "../components/ProjectsArray";
 import { useState } from "react";
-import ProjectCard from "../components/Ui/ProjectCard";
+import ProjectsCard from "./Ui/ProjectsCard";
 
 const customButton = "inline-block bg-gradient-to-r from-lime-400 to-lime-100 text-gray-800 rounded-full px-4 py-1 text-xs font-medium font-noto-sans m-1 shadow-lg"
 
@@ -28,7 +28,7 @@ export default function Proyectos() {
 
             <div className="grid grid-cols-1 m-8 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center">
                 {proyectosFiltrados.map(project => (
-                    <ProjectCard 
+                    <ProjectsCard 
                         key={project.id}
                         title={project.title}
                         description={project.description}
@@ -37,7 +37,7 @@ export default function Proyectos() {
                         repositorio={project.repositorio}
                         tags={project.tags}
                     >
-                    </ProjectCard>
+                    </ProjectsCard>
                 ))}
             </div>
         </section>
