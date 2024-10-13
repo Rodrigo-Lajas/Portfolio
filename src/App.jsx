@@ -5,6 +5,7 @@ import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import NotFoundPage from "./components/404Page";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
                     <Route path="/education" element={<Education />} key={"education"} />
                     <Route path="/projects" element={<Projects />} key={"projects"} />
                     <Route path="/contact" element={<Contact />} key={"contact"} />
+                    <Route path='*' element={<NotFoundPage />} key={"404Page"} />
                 </Routes>
                 <Footer />
                 <SpeedInsights />
