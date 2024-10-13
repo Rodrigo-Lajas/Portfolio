@@ -11,7 +11,7 @@ export default function About() {
                         <span className="text-sm text-gray-700 ">FrontEnd Developer</span>
                     </div>
             </div>
-            <p className="flex mx-auto m-8 text-2xl font-noto-sans font-bold leading-normal text-slate-300 mx-8">Soy un desarrollador Front End en formación, apasionado por la creación de interfaces web atractivas y funcionales. Actualmente estoy aprendiendo a dominar tecnologías como React, Bootstrap y Tailwind CSS, que utilizo para construir proyectos dinámicos y modernos.</p>
+            <p className="flex m-8 text-2xl font-noto-sans font-bold leading-normal text-slate-300 mx-8">Soy un desarrollador Front End en formación, apasionado por la creación de interfaces web atractivas y funcionales. Actualmente estoy aprendiendo a dominar tecnologías como React, Bootstrap y Tailwind CSS, que utilizo para construir proyectos dinámicos y modernos.</p>
         </section>
     );
 }
