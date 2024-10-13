@@ -1,10 +1,5 @@
 const navBarItems = [
     {
-        id: 0,
-        title: "Page 404",
-        link: "*",
-    },
-    {
         id: 1,
         title: "Inicio",
         link: "/",
