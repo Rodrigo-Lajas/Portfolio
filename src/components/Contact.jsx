@@ -12,11 +12,10 @@ export default function Contacto() {
             <div className="container px-6 py-12 mx-auto">
                 <div className="text-center">
                     <p className="flex items-center justify-center text-4xl font-noto-sans font-bold w-auto m-8 bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 sm:text-6xl sm:leading-normal">Contacto</p>
-
                     <p className="mt-3 text-gray-500">Siéntete libre de contactarme para cualquier consulta.</p>
                 </div>
 
-                <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3 mx-8">
                     <div className="flex flex-col items-center justify-center text-center">
                         <span className="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
                             <img src={github} alt='github' className="w-6 h-6" />
