@@ -2,27 +2,27 @@ const navBarItems = [
     {
         id: 1,
         title: "Inicio",
-        link: "#",
+        link: "/",
     },
     {
         id: 2,
         title: "Acerca de mi",
-        link: "#about",
+        link: "/about",
     },
     {
         id: 3,
         title: "Estudios",
-        link: "#education",
+        link: "/education",
     },
     {
         id: 4,
         title: "Proyectos",
-        link: "#projects",
+        link: "/projects",
     },
     {
         id: 5,
         title: "Contacto",
-        link: "#contact",
+        link: "/contact",
     },
 ]
 

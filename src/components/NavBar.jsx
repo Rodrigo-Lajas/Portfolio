@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import navBarItems from '../components/NavBarArray';
+import { Link } from 'react-router-dom';
 
 const navBarLi = "mx-4 font-noto-sans text-lg font-bold"
 
@@ -30,14 +31,14 @@ export default function Navbar() {
 
             <ul className="hidden md:flex items-center justify-evenly space-x-4 my-2 p-4">
                 {navBarItems.map((item) => (
-                    <li  key={item.id} className={navBarLi}><a href={item.link} className={navBarLiHover}>{item.title}</a></li>
+                    <li  key={item.id} className={navBarLi}><Link to={item.link} className={navBarLiHover}>{item.title}</Link></li>
                 ))}
             </ul>
 
             {isMenuOpen ? (
                 <ul className='flex-col h-screen w-full fixed bg-gray-800 md:hidden'>
                     {navBarItems.map((item) => (
-                        <li className={mobileNavLi} key={item.id}><a href={item.link} onClick={closeMenu}>{item.title}</a></li>
+                        <li className={mobileNavLi} key={item.id}><Link to={item.link} onClick={closeMenu}>{item.title}</Link></li>
                     ))}
                 </ul>
             ) : null
