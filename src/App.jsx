@@ -19,7 +19,7 @@ export default function App() {
                     <Route path="/education" element={<Education />} key={"education"} />
                     <Route path="/projects" element={<Projects />} key={"projects"} />
                     <Route path="/contact" element={<Contact />} key={"contact"} />
-                    <Route path='*' element={<NotFoundPage />} />
+                    <Route path="*" element={<NotFoundPage />} />
                 </Routes>
                 <Footer />
                 <SpeedInsights />
