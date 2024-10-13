@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-function ProjectsCard({ title, description, imageUrl, link, tags = []}) {
+export default function ProjectsCard({ title, description, imageUrl, link, tags = [] }) {
     return (
         <article className="max-w-sm h-full rounded-lg overflow-hidden shadow-lg bg-gray-600">
             <img className="w-full rounded-t-md" src={imageUrl} alt={title} />
@@ -24,6 +24,4 @@ ProjectsCard.propTypes = {
     imageUrl: PropTypes.string.isRequired,
     link: PropTypes.string.isRequired,
     tags: PropTypes.arrayOf(PropTypes.string),
-  };
-
-export default ProjectsCard;
+};
