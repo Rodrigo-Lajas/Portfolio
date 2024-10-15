@@ -1,8 +1,12 @@
 import github from '../assets/github-svgrepo-com.svg';
 import linkedin from '../assets/linkedin-svgrepo-com.svg';
 import mail from '../assets/mail-svgrepo-com.svg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Contacto() {
+
+    AOS.init();
     return (
         <section className="bg-gray-800 pt-12">
                 <div className="text-center">
@@ -10,7 +14,7 @@ export default function Contacto() {
                     <p className="my-8 text-gray-500">Siéntete libre de contactarme para cualquier consulta.</p>
                 </div>
 
-                <div className="grid grid-cols-1 gap-12 m-8 p-10 md:grid-cols-2 lg:grid-cols-3 ">
+                <div data-aos="fade-up" className="grid grid-cols-1 gap-12 m-8 p-10 md:grid-cols-2 lg:grid-cols-3 ">
                     <div className="flex flex-col items-center justify-center text-center">
                         <span className="p-3 rounded-full bg-gray-500">
                             <img src={github} alt='github' className="w-6 h-6" />

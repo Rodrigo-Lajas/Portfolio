@@ -6,7 +6,7 @@ export default function Education() {
             <h3 className="flex items-center justify-center text-4xl font-noto-sans font-bold w-auto m-8 bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-lime-100 sm:text-6xl sm:leading-normal">Estudios</h3>
             <ul className="timeline timeline-vertical">
                 {EducationArray.slice(0).reverse().map((education) => (
-                <li key={education.id} className="my-2">
+                <li key={education.id} data-aos={education.animation} className="my-2">
                     <div className="timeline-start text-slate-300">{education.date}</div>
                     <div className="timeline-middle">
                     <svg

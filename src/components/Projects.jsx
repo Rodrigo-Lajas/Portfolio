@@ -1,13 +1,17 @@
 import { useState } from "react";
 import ProjectsArray from "../components/ProjectsArray";
 import PropTypes from 'prop-types';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 {/*tarjeta de proyectos*/}
 function ProjectsCard({ title, description, imageUrl, link, tags = [] }) {
+
+    AOS.init();
     return (
-        <article className="max-w-sm h-full rounded-lg overflow-hidden shadow-lg bg-gray-600">
-            <img className="w-full rounded-t-md" src={imageUrl} alt={title} />
+        <article data-aos="fade-up" className="max-w-sm h-full rounded-lg overflow-hidden shadow-lg bg-gray-600">
+            <img className="object-cover w-full h-56 rounded-t-md" src={imageUrl} alt={title} />
             <div className="px-6 py-4 flex flex-col">
                 <h3 className="font-bold text-xl font-noto-sans mb-4 text-white">{title}</h3>
                 <p className="text-slate-300 text-sm font-noto-sans">{description}</p>
