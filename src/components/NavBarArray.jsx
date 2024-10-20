@@ -8,7 +8,7 @@ const navBarItems = [
     },
     {
         id: 2,
-        title: "Acerca de mi",
+        title: "Acerca de mí",
         link: "/about",
         animation: "fade-left",
         duration: 300,
