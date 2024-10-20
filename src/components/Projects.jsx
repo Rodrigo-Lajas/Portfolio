@@ -10,11 +10,11 @@ function ProjectsCard({ title, description, imageUrl, link, tags = [] }) {
 
     AOS.init();
     return (
-        <article data-aos="fade-up" className="max-w-sm h-full rounded-lg overflow-hidden shadow-lg bg-gray-600">
-            <img className="object-cover w-full h-56 rounded-t-md" src={imageUrl} alt={title} />
+        <article data-aos="fade-up" className="bg-gray-600 card">
+            <img className="object-cover rounded-lg m-4" src={imageUrl} alt={title} />
             <div className="px-6 py-4 flex flex-col">
-                <h3 className="font-bold text-xl font-noto-sans mb-4 text-white">{title}</h3>
-                <p className="text-slate-300 text-sm font-noto-sans">{description}</p>
+                <h3 className="card-title font-noto-sans">{title}</h3>
+                <p className="text-slate-300 text-sm font-noto-sans h-24 mt-4">{description}</p>
                 <div className="flex flex-wrap gap-1 mt-4">
                     {tags.map(tag => <span key={tag} className="bg-gradient-to-r from-lime-400 to-lime-100 text-gray-800 rounded-full px-4 py-1 text-xs font-medium font-noto-sans shadow-lg">{tag}</span>)}
                 </div>
