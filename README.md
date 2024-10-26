@@ -31,16 +31,16 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
    git clone https://github.com/Rodrigo-Lajas/Portfolio.git
 
 2. **Ingresa al directorio del proyecto:**
-
+   
+```bash
 cd Portfolio
 
-
-	3.	Instala las dependencias:
+3.	Instala las dependencias:
 
 npm install
 
 
-	4.	Inicia el servidor de desarrollo:
+4.	Inicia el servidor de desarrollo:
 
 npm run dev
 
