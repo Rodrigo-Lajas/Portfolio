@@ -35,7 +35,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
 ```bash
 cd Portfolio
 
-3.	Instala las dependencias:
+3. **Instala las dependencias:**
 
 npm install
 
