@@ -27,36 +27,41 @@ Bienvenido al repositorio de mi página web personal. Este proyecto está diseñ
 Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
 
 1. **Clona el repositorio:**
-   ```bash
+   ```
    git clone https://github.com/Rodrigo-Lajas/Portfolio.git
+   ```
 
 2. **Ingresa al directorio del proyecto:**
    
-```bash
+```
 cd Portfolio
-
+```
 3. **Instala las dependencias:**
 
+```
 npm install
+```
 
+4. **Inicia el servidor de desarrollo:**
 
-4.	Inicia el servidor de desarrollo:
-
+```
 npm run dev
+```
 
+5. **Abre tu navegador:**
 
-	5.	Abre tu navegador y visita:
-
+6. **Visita:**	
+```
 http://localhost:3000
-
+```
 
 
 ## 📂 Estructura del Proyecto
 
-	•	src/components: Componentes reutilizables de la interfaz de usuario.
-	•	src/pages: Las diferentes páginas de la aplicación (Inicio, Acerca de, Proyectos, Contacto).
-	•	src/assets: Imágenes y otros recursos estáticos.
-	•	src/styles: Configuraciones y estilos globales de Tailwind CSS.
+•	src/components: Componentes reutilizables de la interfaz de usuario.
+•	src/pages: Las diferentes páginas de la aplicación (Inicio, Acerca de, Proyectos, Contacto).
+•	src/assets: Imágenes y otros recursos estáticos.
+•	src/styles: Configuraciones y estilos globales de Tailwind CSS.
 
 ## 📝 Contribuciones
 
@@ -66,7 +71,7 @@ Este es un proyecto personal, pero siempre estoy abierto a sugerencias y mejoras
 
 Si tienes alguna pregunta o simplemente deseas conectar, puedes contactarme en:
 
-	•	LinkedIn: http://linkedin.com/in/rodrigolajas
-	•	Email: rodrigolajas18@gmail.com
+•	LinkedIn: http://linkedin.com/in/rodrigolajas
+•	Email: rodrigolajas18@gmail.com
 
 ¡Gracias por visitar mi proyecto!
