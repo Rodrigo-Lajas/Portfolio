@@ -60,9 +60,8 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu entorno local:
 ## 📂 Estructura del Proyecto
 
       •	src/components: Componentes reutilizables de la interfaz de usuario.
-      •	src/pages: Las diferentes páginas de la aplicación (Inicio, Acerca de, Proyectos, Contacto).
+      •	src/pages: Las diferentes páginas de la aplicación (Inicio, Acerca de, Proyectos, Estudios, Contacto).
       •	src/assets: Imágenes y otros recursos estáticos.
-      •	src/styles: Configuraciones y estilos globales de Tailwind CSS.
 
 ## 📝 Contribuciones
 
@@ -70,7 +69,7 @@ Este es un proyecto personal, pero siempre estoy abierto a sugerencias y mejoras
 
 ## 📞 Contacto
 
-Si tienes alguna pregunta o simplemente deseas conectar, puedes contactarme en:
+Si tienes alguna pregunta o simplemente deseas contactarme, puedes hacerlo en:
 
       •	LinkedIn: http://linkedin.com/in/rodrigolajas
       •	Email: rodrigolajas18@gmail.com
